@@ -10,3 +10,6 @@ yca=LightningCLD(1-double(BWa),"y");
 %%
 figure
 bar(xca)
+%%
+csvwrite('Chord.txt',xca)
+
